@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Registration Form</title>
+</head>
+
+<body style="background:linear-gradient(to right, #4A90E2, #6DD5FA);
+             font-family:Verdana, Geneva, sans-serif;">
+
+<center>
+
+<div style="width:500px;
+            background:white;
+            padding:25px;
+            margin-top:30px;
+            border-radius:15px;
+            box-shadow:0px 0px 15px gray;">
+
+    <h1 style="color:#4A90E2;">
+        Student Registration Form
+    </h1>
+
+    <form>
+
+        <input type="text" placeholder="Full Name"
+        style="width:90%; padding:12px; margin:8px;
+        border:1px solid #ccc; border-radius:8px;"><br>
+
+        <input type="text" placeholder="Matric Number"
+        style="width:90%; padding:12px; margin:8px;
+        border:1px solid #ccc; border-radius:8px;"><br>
+
+        <input type="email" placeholder="Email Address"
+        style="width:90%; padding:12px; margin:8px;
+        border:1px solid #ccc; border-radius:8px;"><br>
+
+        <input type="tel" placeholder="Phone Number"
+        style="width:90%; padding:12px; margin:8px;
+        border:1px solid #ccc; border-radius:8px;"><br>
+
+        <label><b>Gender:</b></label><br><br>
+
+        <input type="radio" name="gender"> Male
+        <input type="radio" name="gender"> Female
+
+        <br><br>
+
+        <label><b>Date of Birth:</b></label><br>
+
+        <input type="date"
+        style="width:90%; padding:12px; margin:8px;
+        border:1px solid #ccc; border-radius:8px;">
+
+        <br>
+
+        <select
+        style="width:95%; padding:12px; margin:8px;
+        border:1px solid #ccc; border-radius:8px;">
+            <option>Select Department</option>
+            <option>Computer Science</option>
+            <option>Statistics</option>
+            <option>Mathematics</option>
+            <option>Physics</option>
+        </select>
+
+        <br>
+
+        <textarea placeholder="Enter Your Address"
+        style="width:90%; height:80px;
+        padding:12px; margin:8px;
+        border:1px solid #ccc;
+        border-radius:8px;"></textarea>
+
+        <br>
+
+        <label><b>Upload Student Photo:</b></label><br><br>
+
+        <input type="file" accept="image/*">
+
+        <br><br>
+
+        <input type="submit" value="Submit"
+        style="background:#28A745;
+        color:white;
+        border:none;
+        padding:12px 25px;
+        border-radius:8px;
+        font-size:16px;
+        cursor:pointer;">
+
+        <input type="reset" value="Reset"
+        style="background:#DC3545;
+        color:white;
+        border:none;
+        padding:12px 25px;
+        border-radius:8px;
+        font-size:16px;
+        cursor:pointer;">
+
+    </form>
+
+</div>
+
+</center>
+
+</body>
+</html>
